@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Rendering the home page html
 def home(request):
-    return render(request,'home.html')
+    return render(request,'index.html')
 #Rendering the page to input items and generating bill
 def input_orders(request):
     return render(request,'inputorders.html')
